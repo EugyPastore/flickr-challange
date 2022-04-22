@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.search {
+  padding: 10px;
+  margin-right: 5px;
+}
+.search input {
+  width: 80%;
+  height: 40px;
+  font-family: 24px;
+  color: grey;
+  padding-left: 5px;
+}
